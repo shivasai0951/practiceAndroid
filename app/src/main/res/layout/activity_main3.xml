@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recyclerview.MainActivity3">
+
+
+    <ImageView
+        android:id="@+id/top_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/top_image"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#133BF1"
+        android:textSize="18sp"
+        android:text="For further support, you can call our helpline or contact us using one of the below contact options." />
+
+    <RelativeLayout
+        android:layout_below="@+id/text"
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/callIcon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_call" />
+
+        <Button
+            android:layout_marginEnd="10dp"
+            android:id="@+id/contactButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/callIcon1"
+            android:background="@drawable/rounded_button"
+            android:text="Call Us  +252617771000" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/callIcon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_call" />
+
+        <Button
+            android:layout_marginEnd="10dp"
+            android:id="@+id/contactButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/callIcon2"
+            android:background="@drawable/rounded_button"
+            android:text="Call Us  +252617771000"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/callIcon3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_call" />
+
+        <Button
+            android:layout_marginEnd="10dp"
+            android:id="@+id/contactButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/callIcon3"
+            android:background="@drawable/rounded_button"
+            android:text="Call Us  +252617771000"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/callIcon4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/email" />
+
+        <Button
+            android:id="@+id/contactButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@+id/callIcon4"
+            android:background="@drawable/rounded_button"
+            android:text="Email Us  info@premierbank.so"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayout4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/rounded_button"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="80dp"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <ImageView
+            android:layout_marginEnd="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_launcher_foreground" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

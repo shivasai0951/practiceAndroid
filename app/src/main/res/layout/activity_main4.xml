@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recyclerview.MainActivity4">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/top_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:layout_below="@+id/top_image"
+            android:layout_width='match_parent'
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/title"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:textColor="#133BF1"
+            android:textSize="18sp"
+            android:text='@string/underline'
+            />
+
+        <TextView
+            android:id="@+id/subtitle1"
+            android:layout_width='match_parent'
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="20dp"
+            android:style="bold"
+            android:text='1.Introduction'
+            android:textColor="#8BC34A"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/subtitle1_text1"
+            android:layout_width='match_parent'
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subtitle1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="20dp"
+            android:style="bold"
+            android:text='Premier Bank respects your privacy and provides this Privacy Policy (the " Policy") to help you understand how it collects and uses the information you submit, or which is otherwise collected, when you access or use the Premier Wallet service.
+This Policy only governs the collection and use of information collected through or in connection with the Premier Wallet service.
+This Policy does not apply to the data collection and use practices of any third parties you may contract with using or in connection with the Premier Wallet service, including but not limited to merchants or your mobile service provider.
+Please read this Privacy Policy carefully. IF YOU DO NOT AGREE WITH THE TERMS OF THIS PRIVACY POLICY, PLEASE DO NOT ACCESS THE PREMIER WALLET SERVICE.'
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/subtitle2"
+            android:layout_width='match_parent'
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subtitle1_text1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="20dp"
+            android:style="bold"
+            android:text='2.Definition'
+            android:textColor="#8BC34A"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/subtitle2_text2"
+            android:layout_width='match_parent'
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subtitle2"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="20dp"
+            android:style="bold"
+            android:text='Premier Bank respects your privacy and provides this Privacy Policy (the " Policy") to help you understand how it collects and uses the information you submit, or which is otherwise collected, when you access or use the Premier Wallet service.
+This Policy only governs the collection and use of information collected through or in connection with the Premier Wallet service.
+This Policy does not apply to the data collection and use practices of any third parties you may contract with using or in connection with the Premier Wallet service, including but not limited to merchants or your mobile service provider.
+Please read this Privacy Policy carefully. IF YOU DO NOT AGREE WITH THE TERMS OF THIS PRIVACY POLICY, PLEASE DO NOT ACCESS THE PREMIER WALLET SERVICE.'
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
