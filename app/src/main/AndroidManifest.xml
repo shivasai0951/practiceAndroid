@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.shivasai.practice">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -13,12 +14,15 @@
         android:theme="@style/Theme.Practice">
         <activity
             android:name=".recyclerview.MainActivity4"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".recyclerview.MainActivity3"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".recyclerview.MainActivity2"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
