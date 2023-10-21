@@ -4,6 +4,8 @@
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -13,16 +15,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Practice">
         <activity
-            android:name=".recyclerview.MainActivity4"
-            android:parentActivityName=".MainActivity"
+            android:name=".folderOne.screenOne.screenOneGET"
             android:exported="false" />
         <activity
-            android:name=".recyclerview.MainActivity3"
-            android:parentActivityName=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".recyclerview.MainActivity2"
-            android:parentActivityName=".MainActivity"
+            android:name=".Get.retrofitGetActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
